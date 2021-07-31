@@ -1,0 +1,42 @@
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    width:100%;
+    margin:0;
+    font-size:30px;
+    color: cornsilk;
+    line-height: 2;
+    background-color: blue;
+    box-shadow: 5px 5px 20px blueviolet;
+}
+#status, #baby{
+    font-size:17px;
+}
+
+#footer {
+    width:100%;
+    bottom:0;
+    position:fixed;
+    text-align: center;
+    color:whitesmoke;
+    background-color: crimson;
+    line-height: 2;
+    font-size: 15px;
+}
+
+canvas {
+    animation-name: box_shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius:15px;
+    border: dashed 6px blue;
+    margin-top: 100px;
+}
+
+@keyframes box_shadow {
+    from {box-shadow: rgb(255, 0, 0) 2px 2px 20px;}
+    to {box-shadow: rgb(128, 0, 0) 2px 2px 20px;}
+}
