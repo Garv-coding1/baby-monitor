@@ -2,8 +2,8 @@ status = "";
 objects = [];
 alarm = "";
 function preload() {
-yes = loadImage("yes.jpg");
-alarm = loadSound("alarm.mp3");
+yes = loadImage('yes.jpg');
+alarm = loadSound('alarm.mp3');
 }
 function setup() {
 canvas = createCanvas(380, 380);
